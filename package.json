@@ -1,0 +1,24 @@
+{
+  "name": "seminar-hall-allocator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seminar Hall & Auditorium Allocation App built by a 2-person team",
+  "type": "module",
+  "scripts": {
+    "dev:server": "node server/server.js",
+    "dev:client": "vite",
+    "dev": "concurrently -n API,WEB -c cyan,magenta \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7"
+  }
+}
