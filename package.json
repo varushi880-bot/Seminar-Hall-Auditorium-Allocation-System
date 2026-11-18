@@ -8,7 +8,8 @@
     "dev:server": "node server/server.js",
     "dev:client": "vite",
     "dev": "concurrently -n API,WEB -c cyan,magenta \"npm run dev:server\" \"npm run dev:client\"",
-    "build": "vite build"
+    "build": "vite build",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

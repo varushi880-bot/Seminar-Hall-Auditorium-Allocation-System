@@ -279,6 +279,16 @@ app.post('/api/admin/verify', (req, res) => {
   return res.status(401).json({ error: 'Invalid Admin PIN. (Demo PIN is 1234)' });
 });
 
+// ---------- Serve React Frontend in Production ----------
+const DIST_DIR = path.join(__dirname, '..', 'dist');
+if (fs.existsSync(DIST_DIR)) {
+  app.use(express.static(DIST_DIR));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(DIST_DIR, 'index.html'));
+  });
+}
+
 app.listen(PORT, () => {
   console.log(`Seminar Hall Allocation API running on http://localhost:${PORT}`);
 });
