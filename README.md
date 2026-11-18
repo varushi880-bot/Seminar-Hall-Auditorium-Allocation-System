@@ -39,7 +39,7 @@ This project is collaboratively built by a **2-member team** with clear separati
 | Team Member | GitHub | Branch | Owned Files | Key Responsibilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **Arushi Verma** | [@varushi880-bot](https://github.com/varushi880-bot) | `feature/frontend-booking` | `src/App.jsx`, `src/main.jsx`, `src/styles.css` | Venue catalog UI, live availability filter, booking modal, conflict alternative switcher, schedule view & responsive styling |
-| **Partner (Member 2)** | [@Ifyouknowyouknow2](https://github.com/Ifyouknowyouknow2) | `feature/backend-admin` | `server/server.js`, `server/data.json`, `src/AdminPanel.jsx` | Express REST APIs, time-overlap conflict engine, alternative hall recommender, data persistence & Admin Console |
+| **Anshiki Singh** | [@Ifyouknowyouknow2](https://github.com/Ifyouknowyouknow2) | `feature/backend-admin` | `server/server.js`, `server/data.json`, `src/AdminPanel.jsx` | Express REST APIs, time-overlap conflict engine, alternative hall recommender, data persistence & Admin Console |
 
 > **Shared Setup Files:** `package.json`, `vite.config.js`, `index.html`, `README.md`
 
