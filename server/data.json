@@ -1,0 +1,96 @@
+{
+  "halls": [
+    {
+      "id": "H1",
+      "name": "Main Auditorium",
+      "type": "Auditorium",
+      "building": "Central Block",
+      "capacity": 500,
+      "facilities": ["4K Projector", "Dolby Sound", "Stage Lighting", "Central AC"],
+      "underMaintenance": false
+    },
+    {
+      "id": "H2",
+      "name": "Seminar Hall A",
+      "type": "Seminar Hall",
+      "building": "CS & IT Block - 2nd Floor",
+      "capacity": 150,
+      "facilities": ["Projector", "Podium Mic", "AC", "Wi-Fi"],
+      "underMaintenance": false
+    },
+    {
+      "id": "H3",
+      "name": "Seminar Hall B",
+      "type": "Seminar Hall",
+      "building": "Electronics Block - 1st Floor",
+      "capacity": 100,
+      "facilities": ["Smart Board", "Audio System", "AC"],
+      "underMaintenance": false
+    },
+    {
+      "id": "H4",
+      "name": "Executive Conference Room",
+      "type": "Conference Room",
+      "building": "Admin Block - Ground Floor",
+      "capacity": 40,
+      "facilities": ["Video Conferencing", "Whiteboard", "AC"],
+      "underMaintenance": false
+    },
+    {
+      "id": "H5",
+      "name": "Open-Air Amphitheatre",
+      "type": "Auditorium",
+      "building": "South Lawn",
+      "capacity": 300,
+      "facilities": ["PA Sound System", "Outdoor Stage", "Flood Lights"],
+      "underMaintenance": false
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-1001",
+      "hallId": "H1",
+      "eventTitle": "Annual Tech Symposium Keynote",
+      "organizer": "Dr. Ananya Sharma",
+      "department": "Computer Science",
+      "date": "2026-11-18",
+      "startTime": "10:00",
+      "endTime": "12:30",
+      "attendees": 420,
+      "notes": "Requires 2 cordless mics and HDMI adapter",
+      "status": "Approved",
+      "adminRemark": "Confirmed with AV team",
+      "createdAt": "2026-11-16T09:15:00.000Z"
+    },
+    {
+      "id": "BK-1002",
+      "hallId": "H2",
+      "eventTitle": "AI & Cloud Computing Workshop",
+      "organizer": "Rohan Verma",
+      "department": "ACM Student Chapter",
+      "date": "2026-11-18",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "attendees": 120,
+      "notes": "Need Wi-Fi bandwidth for hands-on lab",
+      "status": "Pending",
+      "adminRemark": "",
+      "createdAt": "2026-11-17T11:30:00.000Z"
+    },
+    {
+      "id": "BK-1003",
+      "hallId": "H4",
+      "eventTitle": "Placement Cell Pre-Placement Talk",
+      "organizer": "Prof. Vikram Mehta",
+      "department": "Training & Placement",
+      "date": "2026-11-19",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "attendees": 35,
+      "notes": "Video call setup required for remote HR panel",
+      "status": "Approved",
+      "adminRemark": "Approved",
+      "createdAt": "2026-11-17T14:20:00.000Z"
+    }
+  ]
+}
